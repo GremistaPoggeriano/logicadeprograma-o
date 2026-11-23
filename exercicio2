@@ -1,0 +1,7 @@
+vida = 3
+
+while vida > 0:
+    print("Você ainda está jogando!")
+    vida -= 1
+
+print("Game-Over")
