@@ -1,0 +1,6 @@
+lanche = ("Pastel", "Suco", "Pão", "Bolinho")
+
+print(lanche[1])
+
+for comida in lanche:
+    print(comida)
