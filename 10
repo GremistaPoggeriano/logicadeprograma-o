@@ -1,0 +1,12 @@
+soma_total = 0
+
+while True:
+    entrada = input("Digite um número (ou 0 para sair): ")
+    numero = int(entrada)
+    if numero == 0:
+        break
+
+    soma_total += numero
+    print(f"Soma atual: {soma_total}")
+
+print(f"\nPrograma encerrado! O resultado final da soma é: {soma_total}")
